@@ -2,6 +2,7 @@
 
 - Changelog principles
 - Commented code
+- speckit technical stack
 
 ## CLAUDE.md
 
