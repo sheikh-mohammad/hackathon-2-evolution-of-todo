@@ -1,7 +1,7 @@
 <!-- Sync Impact Report:
-Version change: 1.0.0 → 1.1.0 (Phase I specific updates + changelog)
-Added sections: Changelog section added
-Modified principles: III. Progressive Complexity Evolution, VI. Clean Architecture & Separation of Concerns
+Version change: 1.0.0 → 1.2.0 (Atomic commits and co-authoring principles added)
+Added sections: none
+Modified principles: Added VI. Atomic Commits, VII. Co-authoring with Claude Code, renumbered VIII. Clean Architecture & Separation of Concerns
 Removed sections: none
 Templates requiring updates: ⚠ pending manual review of .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
 Follow-up TODOs: none
@@ -26,7 +26,13 @@ Components must be designed as reusable, modular units that can be leveraged acr
 ### V. Test-First (NON-NEGOTIABLE)
 TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced. All features must have corresponding tests before implementation completion.
 
-### VI. Clean Architecture & Separation of Concerns
+### VI. Atomic Commits
+All changes must be committed individually as atomic units. Each commit should represent a single, cohesive change or improvement. Small tasks like adding a sentence, changing a file, or fixing a typo should be committed separately. This ensures clear history and easier debugging.
+
+### VII. Co-authoring with Claude Code
+All commits must include Claude Code as a co-author using the format: "Co-authored-by: Claude Code <claude-code@anthropic.com>". This acknowledges the AI collaboration and maintains proper attribution for all contributions made through AI assistance.
+
+### VIII. Clean Architecture & Separation of Concerns
 Maintain clear separation between different modules and functions within the console application. Each component should have well-defined interfaces and responsibilities to enable independent development and testing. In Phase I, focus on clean module organization and proper separation of concerns within the single console application.
 
 ## Technology Stack Standards
@@ -59,6 +65,11 @@ Maintain clear separation between different modules and functions within the con
 
 ## Changelog
 
+### Version 1.2.0 - 2026-01-16
+- Added Atomic Commits principle for small task management
+- Added Co-authoring with Claude Code principle for proper attribution
+- Renumbered principles to maintain sequence integrity
+
 ### Version 1.1.0 - 2026-01-16
 - Updated technology stack to reflect Phase I requirements (Python console app, UV, in-memory storage)
 - Modified Progressive Complexity Evolution to clarify current Phase I focus
@@ -76,4 +87,4 @@ Maintain clear separation between different modules and functions within the con
 
 This constitution supersedes all other development practices. Amendments require documentation of the change, approval from project maintainers, and a migration plan for existing code. All development activities must comply with these principles and can be audited for compliance.
 
-**Version**: 1.1.0 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-16
+**Version**: 1.2.0 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-16
