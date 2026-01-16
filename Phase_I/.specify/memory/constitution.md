@@ -1,6 +1,6 @@
 <!-- Sync Impact Report:
-Version change: 1.0.0 → 1.1.0 (Phase I specific updates)
-Added sections: none
+Version change: 1.0.0 → 1.1.0 (Phase I specific updates + changelog)
+Added sections: Changelog section added
 Modified principles: III. Progressive Complexity Evolution, VI. Clean Architecture & Separation of Concerns
 Removed sections: none
 Templates requiring updates: ⚠ pending manual review of .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
@@ -65,6 +65,7 @@ Maintain clear separation between different modules and functions within the con
 - Updated Clean Architecture principle to reflect console application context
 - Revised Development Workflow to emphasize Phase I specific requirements
 - Added focus on Basic Level features: Add, Delete, Update, View, Mark Complete
+- Added Changelog section to document version history
 
 ### Version 1.0.0 - 2026-01-16
 - Initial constitution created for Todo App Hackathon II
