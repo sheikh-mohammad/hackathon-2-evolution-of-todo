@@ -1,5 +1,5 @@
 <!-- Sync Impact Report:
-Version change: 1.0.0 → 1.0.1 (Phase I specific updates)
+Version change: 1.0.0 → 1.1.0 (Phase I specific updates)
 Added sections: none
 Modified principles: III. Progressive Complexity Evolution, VI. Clean Architecture & Separation of Concerns
 Removed sections: none
@@ -57,8 +57,22 @@ Maintain clear separation between different modules and functions within the con
 - Manual code changes require explicit exception approval
 - Focus on implementing Basic Level features: Add Task, Delete Task, Update Task, View Task List, Mark as Complete
 
+## Changelog
+
+### Version 1.1.0 - 2026-01-16
+- Updated technology stack to reflect Phase I requirements (Python console app, UV, in-memory storage)
+- Modified Progressive Complexity Evolution to clarify current Phase I focus
+- Updated Clean Architecture principle to reflect console application context
+- Revised Development Workflow to emphasize Phase I specific requirements
+- Added focus on Basic Level features: Add, Delete, Update, View, Mark Complete
+
+### Version 1.0.0 - 2026-01-16
+- Initial constitution created for Todo App Hackathon II
+- Established core principles: Spec-Driven Development, AI-Agent Implementation, Progressive Complexity
+- Defined initial technology stack and development workflow
+
 ## Governance
 
 This constitution supersedes all other development practices. Amendments require documentation of the change, approval from project maintainers, and a migration plan for existing code. All development activities must comply with these principles and can be audited for compliance.
 
-**Version**: 1.0.1 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-16
+**Version**: 1.1.0 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-16
