@@ -1,5 +1,5 @@
 <!-- Sync Impact Report:
-Version change: 1.0.0 → 1.2.0 (Atomic commits and co-authoring principles added)
+Version change: 1.2.0 → 1.2.1 (Technology stack updated to add uv for dependency and github for deployment)
 Added sections: none
 Modified principles: Added VI. Atomic Commits, VII. Co-authoring with Claude Code, renumbered VIII. Clean Architecture & Separation of Concerns
 Removed sections: none
@@ -40,6 +40,8 @@ Maintain clear separation between different modules and functions within the con
 ### Primary Technologies
 - Python 3.13+ for console application development
 - UV for package management
+- UV for dependency management
+- GitHub for deployment
 - Claude Code and Spec-Kit Plus for spec-driven development
 - In-memory data storage for Phase I
 
@@ -56,6 +58,8 @@ Maintain clear separation between different modules and functions within the con
 3. Break plans into atomic, testable tasks specific to Phase I requirements
 4. Implement only what is specified in approved tasks for Phase I
 
+> Note: All this will be done by you and user, wait for the prompt by the user. Means all these specification process are user-dependent.
+
 ### Code Review & Quality Gates
 - All PRs must verify compliance with Phase I specification requirements
 - Code must be generated via AI agents following AGENTS.md guidelines
@@ -64,6 +68,10 @@ Maintain clear separation between different modules and functions within the con
 - Focus on implementing Basic Level features: Add Task, Delete Task, Update Task, View Task List, Mark as Complete
 
 ## Changelog
+
+### Version 1.2.1 - 2026-01-25
+- Updated technology stack to add uv for dependency management and github for deployment.
+- Updated development workflow by updating the specification process for human in the loop (user dependent).
 
 ### Version 1.2.0 - 2026-01-16
 - Added Atomic Commits principle for small task management
@@ -87,4 +95,4 @@ Maintain clear separation between different modules and functions within the con
 
 This constitution supersedes all other development practices. Amendments require documentation of the change, approval from project maintainers, and a migration plan for existing code. All development activities must comply with these principles and can be audited for compliance.
 
-**Version**: 1.2.0 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-16
+**Version**: 1.2.1 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-25
