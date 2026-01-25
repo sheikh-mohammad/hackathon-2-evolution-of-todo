@@ -128,16 +128,6 @@ Everyone is welcome to join the Zoom meeting to watch the presentations. Only in
 - Meeting ID: 849 7684 7088  
 - Passcode: 305850
 
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
 ## **Project Details: The Evolution of Todo**
 
 Focus and Theme: From CLI to Distributed Cloud-Native AI Systems.  
