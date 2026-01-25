@@ -1,5 +1,5 @@
 <!-- Sync Impact Report:
-Version change: 1.2.0 → 1.2.1 (Technology stack updated to add uv for dependency and github for deployment)
+Version change: 1.2.1 → 1.2.2 (Technology stack updated to add pytest for testing)
 Added sections: none
 Modified principles: Added VI. Atomic Commits, VII. Co-authoring with Claude Code, renumbered VIII. Clean Architecture & Separation of Concerns
 Removed sections: none
@@ -41,6 +41,7 @@ Maintain clear separation between different modules and functions within the con
 - Python 3.13+ for console application development
 - UV for package management
 - UV for dependency management
+- Pytest for testing
 - GitHub for deployment
 - Claude Code and Spec-Kit Plus for spec-driven development
 - In-memory data storage for Phase I
@@ -70,6 +71,9 @@ Maintain clear separation between different modules and functions within the con
 ## Changelog
 
 ### Version 1.2.1 - 2026-01-25
+- Updated technology stack to add pytest for testing.
+
+### Version 1.2.1 - 2026-01-25
 - Updated technology stack to add uv for dependency management and github for deployment.
 - Updated development workflow by updating the specification process for human in the loop (user dependent).
 
@@ -95,4 +99,4 @@ Maintain clear separation between different modules and functions within the con
 
 This constitution supersedes all other development practices. Amendments require documentation of the change, approval from project maintainers, and a migration plan for existing code. All development activities must comply with these principles and can be audited for compliance.
 
-**Version**: 1.2.1 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-25
+**Version**: 1.2.2 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-25
