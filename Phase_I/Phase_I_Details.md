@@ -53,10 +53,9 @@ These form the foundation—quick to build, essential for any MVP:
 
 Add these to make the app feel polished and practical:
 
-1.   
-2. Priorities & Tags/Categories – Assign levels (high/medium/low) or labels (work/home)  
-3. Search & Filter – Search by keyword; filter by status, priority, or date  
-4. Sort Tasks – Reorder by due date, priority, or alphabetically
+1. Priorities & Tags/Categories – Assign levels (high/medium/low) or labels (work/home)  
+2. Search & Filter – Search by keyword; filter by status, priority, or date  
+3. Sort Tasks – Reorder by due date, priority, or alphabetically
 
 ## **Advanced Level (Intelligent Features)**
 
