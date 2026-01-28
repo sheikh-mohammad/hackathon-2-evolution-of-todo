@@ -1,7 +1,7 @@
 <!-- Sync Impact Report:
-Version change: 2.2.3 → 2.2.4 (Added automatic ToC section)
-Added sections: Table of Contents
-Modified sections: none
+Version change: 2.2.3 → 2.2.5 (Added git for version control system)
+Added sections: none
+Modified sections: technology stack
 Removed sections: none
 Templates requiring updates: ⚠ pending manual review of .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
 Follow-up TODOs: none
@@ -63,6 +63,7 @@ Maintain clear separation between different modules and functions within the con
 - Pytest for testing
 - Rich for beautiful CLI interfaces and terminal formatting
 - GitHub for deployment
+- Git for Version Control System
 - Claude Code and Spec-Kit Plus for spec-driven development
 - In-memory data storage for Phase I
 
@@ -89,6 +90,9 @@ Maintain clear separation between different modules and functions within the con
 - Focus on implementing Basic Level features: Add Task, Delete Task, Update Task, View Task List, Mark as Complete
 
 ## Changelog
+
+### Version 2.2.5 - 2026-01-28
+- Updated technology stack to add Git for Version Control System in Phase I.
 
 ### Version 2.2.4 - 2026-01-26
 - Added automatic Table of Contents section for easier navigation.
@@ -125,4 +129,4 @@ Maintain clear separation between different modules and functions within the con
 
 This constitution supersedes all other development practices. Amendments require documentation of the change, approval from project maintainers, and a migration plan for existing code. All development activities must comply with these principles and can be audited for compliance.
 
-**Version**: 2.2.4 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-26
+**Version**: 2.2.5 | **Ratified**: 2026-01-16 | **Last Amended**: 2026-01-28
